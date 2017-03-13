@@ -56,8 +56,5 @@ for url in url_list:
 	bd = bd.append(ad,ignore_index=True)
 print bd
 #write data to excel
-# pd.DataFrame.to_excel(bd,excel_writer='D:/stock_profit/stock_profit_%s.xlsx' % str_today,index=None,
-# 					  columns=[1,2,3,4,5,6,7,8,15,16,17,18,19,20,23,24],header=headers)
-# pd.DataFrame.to_excel(bd,excel_writer='D:/stock_profit/stock_profit_%s.xlsx' % str_today,index=None)
 pd.DataFrame.to_excel(bd,excel_writer='D:/stock_profit/stock_profit_%s.xlsx' % str_today,index=None,columns=columns,
 					  header=headers)
