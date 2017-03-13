@@ -1,2 +1,2 @@
 # python-spider
-crawl stock data from dongfangcaifu
+simple spider use to crawl stock data from dongfangcaifu
